@@ -1,0 +1,15 @@
+"customerssn","customeriban","firstname","lastname","dateofbirth","phonenumber","email","address","gender"
+"123456789",GB29RBOS60161331926819,John,Doe,1990-01-15,"1234567890",john.doe@example.com,"123 Main St",M
+"187654321",DE89370400440532013000,Jane,Smith,1995-05-20,"9876543210",jane.smith@example.com,"456 Elm St",F
+"543216789",FR1420041010050500013M02606,David,Johnson,1988-09-10,"5432167890",david.johnson@example.com,"789 Oak St",M
+"987654321",ES9121000418450200051332,Emily,Brown,1992-03-25,"9876543210",emily.brown@example.com,"987 Maple St",F
+"111111111",GB29RBOS60161331926819,Michael,Johnson,1993-08-12,"1111111111",michael.johnson@example.com,"111 Pine St",M
+"222222222",DE89370400440532013000,Sophia,Anderson,1985-12-03,"2222222222",sophia.anderson@example.com,"222 Oak St",F
+"333333333",FR1420041010050500013M02606,Daniel,Martinez,1991-06-08,"3333333333",daniel.martinez@example.com,"333 Elm St",M
+"444444444",ES9121000418450200051332,Olivia,Wilson,1994-02-17,"4444444444",olivia.wilson@example.com,"444 Maple St",F
+"555555555",GB29RBOS60161331926819,Emma,Taylor,1987-04-22,"5555555555",emma.taylor@example.com,"555 Pine St",F
+"666666666",DE89370400440532013000,Ethan,Thomas,1990-11-29,"6666666666",ethan.thomas@example.com,"666 Oak St",M
+"777777777",FR1420041010050500013M02606,Ava,Hernandez,1996-07-01,"7777777777",ava.hernandez@example.com,"777 Elm St",F
+"888888888",ES9121000418450200051332,Liam,Garcia,1989-09-07,"8888888888",liam.garcia@example.com,"888 Maple St",M
+"999999999",GB29RBOS60161331926819,Isabella,Martinez,1992-05-14,"9999999999",isabella.martinez@example.com,"999 Pine St",F
+"000000000",DE89370400440532013000,Noah,Rodriguez,1986-03-19,"0000000000",noah.rodriguez@example.com,"000 Oak St",M
