@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nl.fontys.ais.gui.ModifyBookingController">
+   <children>
+      <GridPane prefHeight="400.0" prefWidth="600.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="195.60001220703126" minHeight="10.0" prefHeight="47.4" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="357.19998397827146" minHeight="10.0" prefHeight="113.79999999999998" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="357.19998397827146" minHeight="10.0" prefHeight="82.80001831054688" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="357.19998397827146" minHeight="10.0" prefHeight="93.40001220703124" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="357.19998397827146" minHeight="10.0" prefHeight="73.60001220703123" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <StackPane prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <TextField fx:id="searchBookingBar" promptText="Search booking" />
+               </children>
+            </StackPane>
+            <StackPane prefHeight="52.0" prefWidth="300.0" GridPane.columnIndex="1">
+               <children>
+                  <Label fx:id="selectedBooking" text="Selected booking ID: " />
+               </children>
+            </StackPane>
+            <TableView fx:id="bookingTableView" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1" GridPane.rowSpan="2">
+              <columns>
+              </columns>
+            </TableView>
+            <TableView fx:id="passengerTableView" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3" GridPane.rowSpan="2">
+               <columns>
+               </columns>
+            </TableView>
+            <TextField fx:id="luggageTextField" maxWidth="-Infinity" prefHeight="26.0" prefWidth="172.0" promptText="enter desired luggage weight" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+            <TextField fx:id="menuTextField" maxWidth="-Infinity" prefHeight="26.0" prefWidth="146.0" promptText="enter desired menu item" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <TextField fx:id="seatTextField" maxWidth="-Infinity" prefHeight="26.0" prefWidth="156.0" promptText="enter desired seat number" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#update" text="Update" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="4" GridPane.valignment="TOP" />
+            <Button mnemonicParsing="false" onAction="#cancel" text="Cancel" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="TOP" />
+            <Label fx:id="messageLabel" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,10 @@
+    .bodybg{
+        -fx-background-image: url("image.png");
+        -fx-background-size: 640 500;
+    }
+    .table-view .column-header{
+
+    }
+    .table-view .column-header-background .label{
+         -fx-font-size: 8pt;
+    }
